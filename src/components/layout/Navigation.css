@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .desktop-nav { display: none !important; }
+  .desktop-cta { display: none !important; }
+  .hamburger   { display: flex !important; }
+  .floating-cta { display: block !important; }
+}
+
+@media (max-width: 480px) {
+  :root { --nav-h: 56px; }
+}

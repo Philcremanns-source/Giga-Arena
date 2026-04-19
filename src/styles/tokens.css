@@ -1,0 +1,47 @@
+:root {
+  /* Hintergründe */
+  --bg-primary:      #07090F;
+  --bg-secondary:    #0D1120;
+  --bg-surface:      #131929;
+  --bg-surface-2:    #1A2236;
+
+  /* Neon-Farben */
+  --neon-blue:       #00C8FF;
+  --neon-purple:     #8B5CF6;
+  --neon-green:      #00E887;
+  --neon-pink:       #F43F8E;
+  --neon-yellow:     #FFD84D;
+
+  /* Text */
+  --text-primary:    #EEF2FF;
+  --text-muted:      #64748B;
+  --text-dim:        #334155;
+
+  /* Borders */
+  --border-subtle:   rgba(255,255,255,0.06);
+  --border-glow:     rgba(0,200,255,0.18);
+
+  /* Glows */
+  --glow-blue:       0 0 20px rgba(0,200,255,0.4), 0 0 60px rgba(0,200,255,0.15);
+  --glow-green:      0 0 20px rgba(0,232,135,0.5), 0 0 60px rgba(0,232,135,0.2);
+  --glow-purple:     0 0 20px rgba(139,92,246,0.4), 0 0 60px rgba(139,92,246,0.15);
+
+  /* Breakpoints */
+  --bp-xs:  375px;
+  --bp-sm:  480px;
+  --bp-md:  768px;
+  --bp-lg:  1024px;
+  --bp-xl:  1280px;
+  --bp-2xl: 1920px;
+
+  /* Layout */
+  --ticker-h: 36px;
+  --nav-h: 68px;
+  --radius: 16px;
+  --radius-sm: 10px;
+
+  /* Fonts */
+  --font-display: 'Syne', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --font-body: 'DM Sans', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+

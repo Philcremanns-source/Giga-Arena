@@ -1,0 +1,18 @@
+@media (max-width: 900px) {
+  .two-col-spotlight       { grid-template-columns: 1fr !important; gap: 28px !important; }
+  .home-usp-grid           { grid-template-columns: repeat(2, 1fr) !important; }
+  .home-attractions-grid   { grid-template-columns: 1fr !important; }
+  .home-testimonials-grid  { grid-template-columns: 1fr !important; }
+  .home-location-grid      { grid-template-columns: 1fr !important; }
+  .home-social-proof-strip { grid-template-columns: 1fr !important; border-radius: 12px; }
+  .home-social-proof-strip > div { border-right: none !important; border-bottom: 1px solid var(--border-subtle); }
+  .home-social-proof-strip > div:last-child { border-bottom: none; }
+  .karte-grid              { grid-template-columns: 1fr !important; }
+  .karte-reg-grid          { grid-template-columns: 1fr !important; }
+  .karte-card-col          { display: flex !important; justify-content: center !important; order: -1; margin-bottom: 8px; }
+  .form-card-3d            { width: 200px !important; height: 126px !important; }
+}
+
+@media (max-width: 480px) {
+  .home-usp-grid { grid-template-columns: 1fr 1fr !important; }
+}
